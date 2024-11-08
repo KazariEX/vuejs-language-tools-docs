@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.8.0",
+    "@zinkawaii/eslint-config": "^0.1.7",
+    "eslint": "^9.14.0",
+    "vitepress": "^1.5.0"
+  }
+}

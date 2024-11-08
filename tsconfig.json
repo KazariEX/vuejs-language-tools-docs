@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ESNext"
+    ],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "ESNext",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "module": "Preserve",
+    "noEmit": true,
+    "strict": true
+  },
+  "include": [
+    "./docs/.vitepress/**/*.ts"
+  ]
+}
