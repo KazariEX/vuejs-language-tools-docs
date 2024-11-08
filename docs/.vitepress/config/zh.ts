@@ -9,7 +9,7 @@ export const zh = defineConfig({
         text: "参考",
         items: [
           { text: "VSCode 选项", link: "/zh/reference/vscode-configurations" },
-          { text: "Compiler 选项", link: "/zh/reference/vue-compiler-options" }
+          { text: "Vue Compiler 选项", link: "/zh/reference/vue-compiler-options" }
         ]
       }
     ],
@@ -20,7 +20,7 @@ export const zh = defineConfig({
           text: "参考",
           items: [
             { text: "VSCode 选项", link: "/zh/reference/vscode-configurations" },
-            { text: "Compiler 选项", link: "/zh/reference/vue-compiler-options" }
+            { text: "Vue Compiler 选项", link: "/zh/reference/vue-compiler-options" }
           ]
         }
       ]

@@ -1,5 +1,5 @@
 ---
-title: Compiler 选项
+title: Vue Compiler 选项
 ---
 
 # {{ $frontmatter.title }}
