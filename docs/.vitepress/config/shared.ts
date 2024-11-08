@@ -3,10 +3,13 @@ import { defineConfig } from "vitepress";
 export const shared = defineConfig({
   title: "Vue Language Tools",
 
-  lastUpdated: true,
   rewrites: {
     "en/:rest*": ":rest*"
   },
+
+  lastUpdated: true,
+  cleanUrls: true,
+  metaChunk: true,
 
   themeConfig: {
     socialLinks: [
