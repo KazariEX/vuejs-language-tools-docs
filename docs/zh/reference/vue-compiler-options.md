@@ -4,7 +4,7 @@ title: Compiler 选项
 
 # {{ $frontmatter.title }}
 
-该选项可通过编辑 `tsconfig.json` 文件的 `vueCompilerOptions` 字段全局配置，也可通过在 SFC 的根部使用特殊的注释语法局部配置。实例：
+该选项可通过编辑 `tsconfig.json` 文件的 `vueCompilerOptions` 字段全局配置，也可通过在 SFC 的根部使用特殊的注释语法局部配置。示例：
 
 ::: code-group
 
@@ -204,7 +204,7 @@ target >= 2.7
 - 类型：`"scoped" | "always" | "never"`
 - 默认值：`"scoped"`
 
-指定 CSS 类名的解析策略。默认情况下，仅在使用 `scoped` 时解析，同时为模板中的类名提供文档链接。
+指定 `<style>` 块中 CSS 类名的解析策略。默认情况下，仅在使用 `scoped` 时解析，同时为模板中的类名提供文档链接。
 
 ## experimentalModelPropName
 
