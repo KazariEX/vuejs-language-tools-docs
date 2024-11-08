@@ -6,6 +6,14 @@ export const zh = defineConfig({
   themeConfig: {
     nav: [
       {
+        text: "插件",
+        items: [
+          { text: "为什么需要插件？", link: "/zh/plugins/why" },
+          { text: "使用插件", link: "/zh/plugins/use" },
+          { text: "编写插件", link: "/zh/plugins/write" }
+        ]
+      },
+      {
         text: "参考",
         items: [
           { text: "VSCode 选项", link: "/zh/reference/vscode-configurations" },
@@ -14,17 +22,23 @@ export const zh = defineConfig({
       }
     ],
 
-    sidebar: {
-      "/zh/reference": [
-        {
-          text: "参考",
-          items: [
-            { text: "VSCode 选项", link: "/zh/reference/vscode-configurations" },
-            { text: "Vue Compiler 选项", link: "/zh/reference/vue-compiler-options" }
-          ]
-        }
-      ]
-    },
+    sidebar: [
+      {
+        text: "插件",
+        items: [
+          { text: "为什么需要插件？", link: "/zh/plugins/why" },
+          { text: "使用插件", link: "/zh/plugins/use" },
+          { text: "编写插件", link: "/zh/plugins/write" }
+        ]
+      },
+      {
+        text: "参考",
+        items: [
+          { text: "VSCode 选项", link: "/zh/reference/vscode-configurations" },
+          { text: "Vue Compiler 选项", link: "/zh/reference/vue-compiler-options" }
+        ]
+      }
+    ],
 
     footer: {
       message: "基于 MIT 许可发布",

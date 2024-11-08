@@ -6,6 +6,14 @@ export const en = defineConfig({
   themeConfig: {
     nav: [
       {
+        text: "Plugins",
+        items: [
+          { text: "Why Plugin?", link: "/plugins/why" },
+          { text: "Use Plugin", link: "/plugins/use" },
+          { text: "Write a Plugin", link: "/plugins/write" }
+        ]
+      },
+      {
         text: "Reference",
         items: [
           { text: "VSCode Configurations", link: "/reference/vscode-configurations" },
@@ -14,17 +22,23 @@ export const en = defineConfig({
       }
     ],
 
-    sidebar: {
-      "/reference": [
-        {
-          text: "Reference",
-          items: [
-            { text: "VSCode Configurations", link: "/reference/vscode-configurations" },
-            { text: "Vue Compiler Options", link: "/reference/vue-compiler-options" }
-          ]
-        }
-      ]
-    },
+    sidebar: [
+      {
+        text: "Plugins",
+        items: [
+          { text: "Why Plugin?", link: "/plugins/why" },
+          { text: "Use Plugin", link: "/plugins/use" },
+          { text: "Write a Plugin", link: "/plugins/write" }
+        ]
+      },
+      {
+        text: "Reference",
+        items: [
+          { text: "VSCode Configurations", link: "/reference/vscode-configurations" },
+          { text: "Vue Compiler Options", link: "/reference/vue-compiler-options" }
+        ]
+      }
+    ],
 
     footer: {
       message: "Released under the MIT License.",
