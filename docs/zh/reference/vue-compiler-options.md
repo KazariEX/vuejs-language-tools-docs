@@ -102,13 +102,13 @@ title: Vue Compiler 选项
 - 类型：`boolean`
 - 默认值：`false`
 
-属性透传的类型支持。启用此选项后，当一个组件始终仅包含一个根节点，或在某个元素上使用了 `v-bind="$attrs"` 时，该组件将尝试获取这些元素的所有 HTML 属性，并应用在自身的 Props 上。例如：
+属性透传的类型支持。启用此选项后，当一个组件始终仅包含一个根节点，或在某个元素上使用了 `v-bind="$attrs"` 时，该组件将尝试获取这些元素的所有 HTML 属性（如果是组件，将递归地获取该组件的 Props 以及它可能接收的透传属性），并应用在自身的 Props 上。例如：
 
 ::: code-group
 
 ```vue [main.vue]
 <script setup lang="ts">
-import Child from './child.vue';
+import Child from "./child.vue";
 </script>
 
 <template>
