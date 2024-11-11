@@ -40,6 +40,11 @@ export const zh = defineConfig({
       }
     ],
 
+    editLink: {
+      pattern: "https://github.com/KazariEX/vuejs-language-tools-docs/blame/main/docs/:path",
+      text: "在 GitHub 上查看此页面"
+    },
+
     footer: {
       message: "基于 MIT 许可发布",
       copyright: `版权所有 © 2020-${new Date().getFullYear()} Johnson Chu`

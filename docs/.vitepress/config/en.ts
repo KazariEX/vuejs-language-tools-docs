@@ -40,6 +40,11 @@ export const en = defineConfig({
       }
     ],
 
+    editLink: {
+      pattern: "https://github.com/KazariEX/vuejs-language-tools-docs/blame/main/docs/:path",
+      text: "View this page on GitHub"
+    },
+
     footer: {
       message: "Released under the MIT License.",
       copyright: `Copyright © 2020-${new Date().getFullYear()} Johnson Chu`
