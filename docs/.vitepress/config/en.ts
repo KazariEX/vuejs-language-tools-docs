@@ -6,6 +6,12 @@ export const en = defineConfig({
   themeConfig: {
     nav: [
       {
+        text: "features",
+        items: [
+          { text: "Slots", link: "/features/slots" }
+        ]
+      },
+      {
         text: "Plugins",
         items: [
           { text: "Why Plugin?", link: "/plugins/why" },
@@ -23,6 +29,12 @@ export const en = defineConfig({
     ],
 
     sidebar: [
+      {
+        text: "features",
+        items: [
+          { text: "Slots", link: "/features/slots" }
+        ]
+      },
       {
         text: "Plugins",
         items: [

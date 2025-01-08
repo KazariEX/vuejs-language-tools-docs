@@ -1,0 +1,5 @@
+---
+title: Slots
+---
+
+# {{ $frontmatter.title }}

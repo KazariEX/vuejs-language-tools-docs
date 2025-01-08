@@ -6,6 +6,12 @@ export const zh = defineConfig({
   themeConfig: {
     nav: [
       {
+        text: "特性",
+        items: [
+          { text: "插槽", link: "/zh/features/slots" }
+        ]
+      },
+      {
         text: "插件",
         items: [
           { text: "为什么需要插件？", link: "/zh/plugins/why" },
@@ -23,6 +29,12 @@ export const zh = defineConfig({
     ],
 
     sidebar: [
+      {
+        text: "特性",
+        items: [
+          { text: "插槽", link: "/zh/features/slots" }
+        ]
+      },
       {
         text: "插件",
         items: [
