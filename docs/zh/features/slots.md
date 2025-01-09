@@ -74,3 +74,13 @@ defineSlots<{
 defineSlots();
 </script>
 ```
+
+另一种解决方式是直接使用 `v-for` 中迭代出来的插槽函数，而不是使用 `<slot>` 元素：
+
+```vue
+<template>
+  <template v-for="render, name in $slots" :key="name">
+    <component :is="render" />
+  </template>
+</template>
+```
