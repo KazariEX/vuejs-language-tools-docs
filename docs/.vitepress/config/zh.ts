@@ -8,7 +8,8 @@ export const zh = defineConfig({
       {
         text: "特性",
         items: [
-          { text: "插槽", link: "/zh/features/slots" }
+          { text: "插槽", link: "/zh/features/slots" },
+          { text: "属性透传", link: "/zh/features/fallthrough-attributes" }
         ]
       },
       {
@@ -32,7 +33,8 @@ export const zh = defineConfig({
       {
         text: "特性",
         items: [
-          { text: "插槽", link: "/zh/features/slots" }
+          { text: "插槽", link: "/zh/features/slots" },
+          { text: "属性透传", link: "/zh/features/fallthrough-attributes" }
         ]
       },
       {

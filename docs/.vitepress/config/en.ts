@@ -8,7 +8,8 @@ export const en = defineConfig({
       {
         text: "features",
         items: [
-          { text: "Slots", link: "/features/slots" }
+          { text: "Slots", link: "/features/slots" },
+          { text: "Fallthrough Attributes", link: "/features/fallthrough-attributes" }
         ]
       },
       {
@@ -32,7 +33,8 @@ export const en = defineConfig({
       {
         text: "features",
         items: [
-          { text: "Slots", link: "/features/slots" }
+          { text: "Slots", link: "/features/slots" },
+          { text: "Fallthrough Attributes", link: "/features/fallthrough-attributes" }
         ]
       },
       {
